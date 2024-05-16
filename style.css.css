@@ -1,0 +1,148 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    background-color: #ffffff; 
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* ------------------- NAV ------------------- */
+nav {
+    padding: 10px 20px; 
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    height: auto;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li {
+    margin-right: 70px;
+}
+
+.nav-links ul li a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li a:hover {
+   color: rgb(42, 136, 33);
+}
+
+.logo img {
+    height: 150px;
+}
+
+/* ------------------- FOOTER ------------------- */
+footer {
+    color: rgb(90, 97, 103);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+    color: cornsilk;
+    border: 10px white fixed;
+}
+
+.quadro-cinza .linha {
+    text-align: center; /* Centraliza o h2 */
+}
+
+.quadro-cinza .linha-superior,
+.quadro-cinza .linha-inferior {
+    display: flex;
+    justify-content: space-around; /* Para afastar as imagens */
+    align-items: center; /* Para centralizar verticalmente */
+}
+
+.quadro-cinza img {
+    width: 150px; /* Redimensiona as imagens */
+    height: auto;
+    margin: 0; /* Remova o margin 10px */
+}
+
+.quadro-cinza .descricao {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333333;
+    flex-basis: 50%; /* Para centralizar a descrição */
+}
+
+h2 {
+    text-align: center; /* Para centralizar o h2 */
+    font-size: px; /* Tamanho maior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border-right-color: black;
+    background-color: rgb(0, 0, 0);
+}
+.quadro-cinza {
+    background-color: #000000;
+    padding: 7%;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    max-width: 800px; 
+    text-align: center;
+}
+
+.descricao{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#linkinsta{
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+    font-size: 10px;
+    align-items: center;
+}
+#logoinsta{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+    margin-top: 0px;
+}
+#título{
+    font-family: Arial, sans-serif;
+}
+
+.quadro-cinza .descricao {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white; /* Mudança de cor para branco */
+    flex-basis: 50%; /* Para centralizar a descrição */
+}
+body{
+    background-image: url('./img/fundo.jpeg');
+    background-size: cover; /* Isso garante que a imagem cubra todo o fundo */
+    background-repeat: no-repeat;
+}
